@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+*{
+    font-family: Lexend Deca;
+}
+
+body{
+    background-image: image();
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 1rem;
+}
