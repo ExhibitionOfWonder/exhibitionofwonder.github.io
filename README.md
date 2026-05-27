@@ -14,3 +14,4 @@ Press mentions and features
 Personal projects and passion work
 
 https://www.wix.com/blog/what-should-a-portfolio-website-include
+https://cornucopiacreations.com/add-fun-to-your-website/#Fun

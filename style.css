@@ -4,12 +4,22 @@
     font-family: Lexend Deca;
 }
 
-body{
-    background-image: image();
-}
-
 ul{
     list-style-type: none;
     display: flex;
     padding: 1rem;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+#animation-bg{
+    color: white;
 }
