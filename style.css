@@ -4,10 +4,11 @@
     font-family: Lexend Deca;
 }
 
-ul{
+#nav-ul{
     list-style-type: none;
     display: flex;
     padding: 1rem;
+    font-size: xx-large;
 }
 
 html, body{
@@ -15,11 +16,23 @@ html, body{
     padding: 0;
 }
 
-iframe{
+iframe, model-viewer{
     display: block;
     margin: 0 auto;
 }
 
 #animation-bg{
     color: white;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    font-size: x-large;
 }
