@@ -12,6 +12,12 @@ VANTA.NET({
   points: 17.00
 })
 
+let n = 0;
+
 function submitclicked() {
-  console.log("todo")
+  n++
+  let feedback = document.getElementById("feedback").value;
+  let feedback_name = document.getElementById("feedback-name").value;
+  console.log("Feedback #".concat(n, ": \"", feedback, "\" was sent by ", feedback_name))
+  alert("Your feedback has been submitted!")
 }

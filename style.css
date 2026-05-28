@@ -2,18 +2,54 @@
 
 *{
     font-family: Lexend Deca;
+        margin: 0;
+        padding: 0;
 }
+
 
 #nav-ul{
+    font-weight: bold;
     list-style-type: none;
     display: flex;
-    padding: 1rem;
-    font-size: xx-large;
+    padding: 2rem;
+    font-size: 1.5rem;
+    background-color: rgb(0,0,0);
 }
 
-html, body{
-    margin: 0;
-    padding: 0;
+#title{
+    background-color: white;
+    margin-left: 0rem;
+    margin-right: 5rem;
+    font-size: xx-large;
+    box-shadow: 0rem 0rem 2rem 0.75rem white;
+    overflow: visible;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+}
+
+#title:hover{
+        transition: 0.125s ease;
+    box-shadow: 0rem 0rem 2rem 1rem white;
+}
+
+#nav-ul li a{
+    margin: 1rem;
+    border:green solid 0.3rem;
+    border-radius: 1.5rem;
+    padding: 0.25rem;
+    background-color: white;
+    color: black;
+}
+
+#nav-ul li a:hover{
+    transition: 0.1s ease;
+    font-size: 1.6rem;
+}
+
+#nav-ul li a:active{
+    transition: 0.125s ease;
+    color: rgb(2, 185, 2);   
 }
 
 iframe, model-viewer{
@@ -27,7 +63,7 @@ iframe, model-viewer{
 
 a{
     text-decoration: none;
-    color: green;
+    color:rgb(38, 183, 240);
 }
 
 footer{
@@ -35,4 +71,9 @@ footer{
     color: white;
     padding: 2rem;
     font-size: x-large;
+}
+
+#gradient-1{
+    background: #000000;
+background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(17, 11, 47, 1) 100%);
 }
