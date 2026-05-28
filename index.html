@@ -24,7 +24,7 @@
                 <li><a href="#professions">Professions</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#motivation">Motivation</a></li>
-                <li><a href="#feedback-nav">Submit Feedback</a></li>
+                <li><a href="#feedback-nav">Feedback</a></li>
                 <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#credits">Credits</a></li>
             </ul>
@@ -33,8 +33,7 @@
     <main>
 
         <div id="gradient-1">
-            <br>
-            <br>
+            <br><br>
         </div>
         
         <!--<iframe title="3D Clipart - WebDev" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="1600" height="540" src="https://sketchfab.com/models/f3d8f1a7174847d994ab698e265f9672/embed?autostart=1&camera=0&preload=1"> </iframe>
@@ -43,29 +42,36 @@
         
         <section id="home">
         
-            <div id="animation-bg"><h1>Hey, my name is Sion Yoon!</h1>
-
+            <div id="animation-bg">
+            <h1 class="section-start">Hey, my name is Sion Yoon!</h1>
+            <br>
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-handshake-icon lucide-handshake"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></svg>
-
-            <p>
+            <br>
+            <p style="margin-top: 2rem; font-size: x-large; font-weight: bold;">
                 I am currently a Grade 8 student at Yorkson Creek Middle School. This is my portfolio for Exhibition Of Wonder!
                 <br>
+                <br>
                 I strive to learn more about programming, designing, and ideating cool stuffs, like this website for example!
+                <br>
                 <br>
                 I try to make other's days better by giving them a helping hand!
             </p>
 
-            <h3><strong><em>"The only impossible journey is the one you never begin."</em></strong></h3>
+            <br><br><br>
+
+            <h2><strong><em>"The only impossible journey is the one you never begin."</em></strong></h2>
+            <br>
             <h4><em>Tony Robbins - American author, coach, motivational speaker</em></h4>
-            <figure>
-                <img src="image/School Photo.jpg">
-                <figcaption>A handsome man. I wonder who it is?</figcaption>
+            <figure style="padding: 2rem;">
+                <img src="image/5.jpg" height="300px" style="box-shadow: 0 0 1rem 1rem black;" id="sion-yoon">
+                <br><br><br>
+                <figcaption><em>A handsome man. I wonder who it is?</em></figcaption>
             </figure></div>
         
         </section>
 
         <section id="professions">
-            <h1>My Professions / Hobbies</h1>
+            <h1 class="section-start">My Professions / Hobbies</h1>
 
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square-heart-icon lucide-message-square-heart"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/><path d="M7.5 9.5c0 .687.265 1.383.697 1.844l3.009 3.264a1.14 1.14 0 0 0 .407.314 1 1 0 0 0 .783-.004 1.14 1.14 0 0 0 .398-.31l3.008-3.264A2.77 2.77 0 0 0 16.5 9.5 2.5 2.5 0 0 0 12 8a2.5 2.5 0 0 0-4.5 1.5"/></svg>
 
@@ -201,13 +207,15 @@
 
         <p><em>Any questions, feedbacks, and/or comments you want to ask? You can type it here and I can use it to improve the website!</em></p>
 
+        <form class="feedback-class">
         <label for="feedback">Your Feedback</label>
-        <input type="text" placeholder="This website is amazing!" id="feedback" name="feedback" required>
+        <input type="text" placeholder="This website is amazing!" id="feedback" name="feedback">
 
         <label for="feedback-name">Your name(Or alias)</label>
-        <input type="text" placeholder="John Doe" name="feedback-name" id="feedback-name" required>
+        <input type="text" placeholder="John Doe" name="feedback-name" id="feedback-name">
 
-        <input type="submit" value="Submit" onclick="submitclicked()">
+        <input type="submit" value="Submit" onclick="submitclicked();return false">
+        </form>
 
         </section>
 
@@ -263,6 +271,7 @@
         <h2>Submit a Feedback</h2>
         <p>If you have any questions, feedback, or comment, submit it here!</p>
 
+        <form class="feedback-class">
         <label for="feedback">Your Feedback</label>
         <input type="text" placeholder="This website is amazing!" id="feedback" name="feedback">
 
@@ -270,6 +279,8 @@
         <input type="text" placeholder="John Doe" name="feedback-name" id="feedback-name">
 
         <input type="submit" value="Submit" onclick="submitclicked()">
+        </form>
+        
 
         <h2>Sections</h2>
 
@@ -309,8 +320,7 @@
             <li><a href="https://www.freecodecamp.org/waitmathrandom" target="_blank">FreeCodeCamp</a></li> 
         </ul>
 
-
-
+        <p id="feedback-list" style="color: black; user-select: none; -ms-user-select: none; -webkit-user-select: none; font-size: 1px;"></p>
 
     </footer>
 

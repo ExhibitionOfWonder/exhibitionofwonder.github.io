@@ -19,7 +19,7 @@
 #title{
     background-color: white;
     margin-left: 0rem;
-    margin-right: 5rem;
+    margin-right: 15rem;
     font-size: xx-large;
     box-shadow: 0rem 0rem 2rem 0.75rem white;
     overflow: visible;
@@ -35,7 +35,8 @@
 
 #nav-ul li a{
     margin: 1rem;
-    border:green solid 0.3rem;
+    border: black solid;
+    box-shadow: 0rem 0rem 2rem 0.25rem white;
     border-radius: 1.5rem;
     padding: 0.25rem;
     background-color: white;
@@ -75,5 +76,22 @@ footer{
 
 #gradient-1{
     background: #000000;
-background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(17, 11, 47, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(17, 11, 47, 1) 100%);
+}
+
+svg{
+    display: block;
+    margin: auto;
+    transform: scale(5);
+    padding: 1rem;
+    filter: drop-shadow(0px 0px 5px #FFFFFF);
+}
+
+#home{
+    text-align: center;
+    text-shadow: rgba(255,255,255,1) 0px 0px 48px;
+}
+
+.section-start{
+    font-size: 7rem; text-align: center; padding: 1rem;
 }
