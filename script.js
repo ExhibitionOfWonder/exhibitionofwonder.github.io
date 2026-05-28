@@ -42,5 +42,7 @@ document.getElementById("sion-yoon").addEventListener("click", () =>{
     imgnum++
     return
   }
+  document.getElementById("sion-yoon").src = "./image/1.jpg"
   imgnum = 0
+  imgnum++
 })
