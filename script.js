@@ -11,3 +11,7 @@ VANTA.NET({
   backgroundColor: 0x110b2f,
   points: 17.00
 })
+
+function submitclicked() {
+  console.log("todo")
+}
