@@ -16,11 +16,11 @@ VANTA.NET({
 let n = 0;
 let feedback_list = document.getElementById("feedback-list")
 let sion_yoon_images = [
-  "image/1.jpg", // 0
-  "image/2.jpg", // 1
-  "image/3.jpg", // 2
-  "image/4.jpg", // 3
-  "image/5.jpg" // 4
+  "./image/1.jpg", // 0
+  "./image/2.jpg", // 1
+  "./image/3.jpg", // 2
+  "./image/4.jpg", // 3
+  "./image/5.jpg" // 4
 ]
 
 function submitclicked() {;
@@ -40,10 +40,7 @@ document.getElementById("sion-yoon").addEventListener("click", () =>{
   document.getElementById("sion-yoon").src = sion_yoon_images[imgnum]
   if (imgnum <= 4){
     imgnum++
+    return
   }
-  else if (imgnum = 5)
-    {
-    imgnum = 0
-  }
-  console.log(imgnum)
+  imgnum = 0
 })
